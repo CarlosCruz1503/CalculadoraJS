@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Secular One", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .calculadora {
+  width: 400px;
+  height: 600px;
+  background-color: aliceblue;
+  border-radius: 2rem;
+  background-color: #1D1B1C;
+}
+.container .calculadora .panel-res {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container .calculadora .panel-res #chiqui {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: white;
+  margin-top: 0.4rem;
+}
+.container .calculadora .panel-res #resultado {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  color: white;
+}
+.container .calculadora .panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .calculadora .panel .pfour {
+  margin-top: -2rem;
+}
+.container .calculadora .panel .b-panel {
+  width: 80px;
+  height: 80px;
+  margin: 0.4rem;
+  border-radius: 3rem;
+  border: none;
+  font-size: 1.5rem;
+  background-color: #25d88d;
+  cursor: pointer;
+}
+.container .calculadora .panel .b-panel:hover {
+  background-color: #25d82e;
+}
+.container .calculadora .panel .signo {
+  background-color: #d8d825;
+}
+.container .calculadora .panel .signo:hover {
+  background-color: #ff9900;
+}
+.container .calculadora .panel #c {
+  background-color: #7825d8;
+}
+.container .calculadora .panel #c:hover {
+  background-color: #b425d8;
+}
+.container .calculadora .panel #vacio {
+  background-color: rgba(120, 37, 216, 0);
+}
+.container .calculadora .panel .igual {
+  background-color: #d8d825;
+}
+
+/*# sourceMappingURL=calculadora.css.map */
