@@ -139,34 +139,51 @@ total.addEventListener("click", () => {
                     texto = parseFloat(operando[i - 1]) + parseFloat(operando[i + 1])
                     operando.splice(0, operando.length);
                     console.log(resultado)
-                    resultado.innerHTML = texto.toFixed(3)
+                    if (texto % 1 == 0) {
+                        resultado.innerHTML = texto
+                    } else {
+                        resultado.innerHTML = texto.toFixed(3)
+                    }
                 } else if (operando[i] == "resta") {
                     console.log(operando[i])
                     texto = parseFloat(operando[i - 1]) - parseFloat(operando[i + 1])
                     operando.splice(0, operando.length);
                     console.log(resultado)
-                    resultado.innerHTML = texto.toFixed(3)
+                    if (texto % 1 == 0) {
+                        resultado.innerHTML = texto
+                    } else {
+                        resultado.innerHTML = texto.toFixed(3)
+                    }
                 } else if (operando[i] == "multiplica") {
                     console.log(operando[i])
                     texto = parseFloat(operando[i - 1]) * parseFloat(operando[i + 1])
                     operando.splice(0, operando.length);
                     console.log(resultado)
-                    resultado.innerHTML = texto.toFixed(3)
+
+                    if (texto % 1 == 0) {
+                        resultado.innerHTML = texto
+                    } else {
+                        resultado.innerHTML = texto.toFixed(3)
+                    }
                 } else if (operando[i] == "divide") {
                     console.log(operando[i])
                     texto = parseFloat(operando[i - 1]) / parseFloat(operando[i + 1])
                     operando.splice(0, operando.length);
                     console.log(resultado)
-                    resultado.innerHTML = texto.toFixed(3)
+                    if (texto % 1 == 0) {
+                        resultado.innerHTML = texto
+                    } else {
+                        resultado.innerHTML = texto.toFixed(3)
+                    }
                 }
             }
         }
     }
     chiqui.innerHTML = resultado.innerHTML
-    if (resultado.innerHTML > 10000){
+    if (resultado.innerHTML > 10000) {
         resultado.style.fontSize = "60px"
     }
-    if (resultado.innerHTML > 1000000){
+    if (resultado.innerHTML > 1000000) {
         resultado.style.fontSize = "40px"
     }
 })

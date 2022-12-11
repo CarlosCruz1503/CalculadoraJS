@@ -68,6 +68,12 @@
 .container .calculadora .panel .signo {
   background-color: #d8d825;
 }
+.container .calculadora .panel .atras {
+  background-color: #7825d8;
+}
+.container .calculadora .panel .atras:hover {
+  background-color: #b425d8;
+}
 .container .calculadora .panel .signo:hover {
   background-color: #ff9900;
 }

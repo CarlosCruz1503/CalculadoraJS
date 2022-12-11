@@ -75,7 +75,12 @@
             .signo {
                 background-color: #d8d825;
             }
-
+            .atras {
+                background-color: #7825d8;
+            }
+            .atras:hover {
+                background-color: #b425d8;
+            }
             .signo:hover {
                 background-color: #ff9900;
             }
@@ -83,10 +88,12 @@
             #c {
                 background-color: #7825d8;
             }
+            
 
             #c:hover {
                 background-color: #b425d8;
             }
+            
 
             #vacio {
                 background-color: #7825d800;
@@ -96,6 +103,7 @@
                 background-color: #d8d825;
 
             }
+            
 
         }
     }
