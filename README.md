@@ -13,7 +13,7 @@ Carlos Cruz
 
 ## Tecnologías 🧑‍💻 :
 
-HTML, Css, Sass, Js, React, Redux, Redux-sagas
+HTML, Css, Sass, Js
 
 ## Instalación 
 ./index.html
