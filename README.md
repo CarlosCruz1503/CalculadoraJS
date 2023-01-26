@@ -1,6 +1,6 @@
 # Calculadora JS
 
-Este proyecto es una calculadora echa con HTML, SCSS Y JS
+Este proyecto es una calculadora hecha con HTML, SCSS Y JS
 La calculadora tiene el mismo funcionamiento que la calculadora de Windows
 
 ## 🔗 Ver demo:
