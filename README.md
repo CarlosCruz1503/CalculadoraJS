@@ -13,9 +13,10 @@ Carlos Cruz
 
 ## Tecnologías 🧑‍💻 :
 
-HTML, Css, Sass, Js
+HTML, Css, Sass, Js 
 
 ## Instalación 
+
 ./index.html
 
 ## Contactame
